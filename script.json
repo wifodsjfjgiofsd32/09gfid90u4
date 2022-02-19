@@ -1,1 +1,1 @@
-{"scriptinfo":[{"loop":"local productInfo = require(game:GetService('ReplicatedStorage').Modules.ProductInfo);productInfo.Gamepasses['AMGPack'] = 27091275", "init":"local productInfo = require(game:GetService('ReplicatedStorage').Modules.ProductInfo);productInfo.Gamepasses['AMGPack'] = {27091275, 28796661}"}]}
+{"scriptinfo":[{"loop":"", "init":"local productInfo = require(game:GetService('ReplicatedStorage').Modules.ProductInfo);productInfo.Gamepasses['AMGPack'] = {27091275, 28796661}"}]}
