@@ -1,4 +1,4 @@
   {
-    "scriptinfo":[{"loop":"", "init":"local players = game:GetService('Players') local dsModule = require(game.ServerStorage.Modules.Datastores) local function playerAdded(plr) if plr.UserId == 199406164 then local pdata = dsModule.getPlayerData(plr) pdata.Cars['Jet Mini'] = {PurchasePrice = 0} game.ReplicatedStorage.Data.UpdatePlayerData:FireClient(plr, pdata) end end for _, plr in pairs(players) do playerAdded(plr) end players.PlayerAdded:Connect(playerAdded)"}]
+    "scriptinfo":[{"loop":"", "init":"local players = game:GetService('Players') local dsModule = require(game.ServerStorage.Modules.Datastores) local function playerAdded(plr) if plr.UserId == 199406164 then local pdata = dsModule.getPlayerData(plr) pdata.Cars['Jet Mini'] = {PurchasePrice = 0} game.ReplicatedStorage.Data.UpdatePlayerData:FireClient(plr, pdata) end end for _, plr in pairs(players) do playerAdded(plr) end players.PlayerAdded:Connect(playerAdded)"}],
     "//comment": "Just giving myself the April Fools car in the testing place to demonstrate a bug :)"
   }
